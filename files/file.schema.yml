@@ -1,0 +1,15 @@
+---
+type: object
+required:
+  - parameters
+properties:
+  parameters:
+    type: object
+    required:
+      - test
+    properties:
+      test:
+        type: boolean
+        examples:
+          - true
+          - false
